@@ -6,6 +6,8 @@
 //{
 //	//字符类型
 //	char ch = 'a';
+//	//字符串类型
+//	char arr[] = "haha";
 //	//整型
 //	int age = 20;
 //	//短整型
@@ -20,6 +22,7 @@
 //	double d = 0.0;
 //
 //	printf("%c\n",ch);
+//	printf("%s\n",arr);
 //	printf("%d\n",age);
 //	printf("%hd\n",num1);
 //	printf("%ld\n",num2);
@@ -32,7 +35,7 @@
 
 
 
-//	//sizeof()—关键字—操作符—计算类型/变量所占的空间大小
+////sizeof()—关键字—操作符—计算类型/变量所占的空间大小
 //int main()
 //{
 //	printf("hehe\n");
@@ -51,4 +54,14 @@
 //
 //	return 0;
 //
+//}
+
+////声明一下变量
+//extern int g_val;
+//
+//int main()
+//{
+//	printf("%d\n",g_val);
+//
+//	return 0;
 //}

@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="常量.c" />
     <ClCompile Include="常量变量.c" />
     <ClCompile Include="数据类型.c" />
   </ItemGroup>
